@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         sendBtn.setOnClickListener {
             Log.d("메인화면","send버튼 클릭됨.")
-            Toast.makeText(this, "You clicked Send Btn!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "You clicked Send Btn1!", Toast.LENGTH_SHORT).show()
             target.setText(input.text)
         }
     }
